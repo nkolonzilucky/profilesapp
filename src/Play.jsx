@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import background from './assets/background.jpg'
 
-function App() {
+function Play() {
   const [background, setCount] = useState(background)
   const [plays, setPlays] = useState(0)
   const [hearts, setHearts] = useState(0)
