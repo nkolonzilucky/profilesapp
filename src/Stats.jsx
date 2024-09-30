@@ -1,6 +1,5 @@
-import React from "react";
-import iconHeart from "./icon-heart.png";
-import iconPlayCircle from "./icon-play-circle.png";
+import iconHeart from "./assets/heart.png";
+import iconPlayCircle from "./assets/plays.png";
 
 export const Stats = () => {
   return (

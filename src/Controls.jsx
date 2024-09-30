@@ -1,9 +1,8 @@
-import React from "react";
-import iconArrowIosBack from "./icon-arrow-ios-back.png";
-import iconArrowIosForward from "./icon-arrow-ios-forward.png";
-import iconPauseCircleOutline from "./icon-pause-circle-outline.png";
-import iconRepeat from "./icon-repeat.png";
-import iconShuffle2Outline from "./icon-shuffle-2-outline.png";
+import iconArrowIosBack from "./assets/previous-icon.png";
+import iconArrowIosForward from "./assets/next-icon.png";
+import iconPauseCircleOutline from "./assets/pause-icon.png";
+import iconRepeat from "./assets/repeat-icon.png";
+import iconShuffle2Outline from "./assets/shuffle-icon.png";
 
 export const Controls = () => {
   return (

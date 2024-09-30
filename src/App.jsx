@@ -1,10 +1,9 @@
-import React from "react";
 import { Controls } from "./Controls";
 import { Display } from "./Display";
 import { Header } from "./Header";
 import { SongAndArtist } from "./SongAndArtist";
 import { Stats } from "./Stats";
-import backgroundPic from "public/background-pic.png";
+import backgroundPic from "./assets/background-pic.png";
 
 export const App = () => {
   return (

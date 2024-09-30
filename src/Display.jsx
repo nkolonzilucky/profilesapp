@@ -1,34 +1,19 @@
-import React from "react";
-import iconArrowIosBack from "./icon-arrow-ios-back.png";
-import iconArrowIosForward from "./icon-arrow-ios-forward.png";
-import iconPauseCircleOutline from "./icon-pause-circle-outline.png";
-import iconRepeat from "./icon-repeat.png";
-import iconShuffle2Outline from "./icon-shuffle-2-outline.png";
 
-export const Controls = () => {
+
+export const Display = () => {
   return (
-    <div className="relative w-[434px] h-[100px] bg-[#2a6b36] rounded-[8.42px] overflow-hidden">
-      <img className="absolute w-12 h-[46px] top-7 left-5" alt="Icon repeat" src={iconRepeat} />
-      <img
-        className="absolute w-[97px] h-[93px] top-1 left-[162px]"
-        alt="Icon pause circle"
-        src={iconPauseCircleOutline}
-      />
-      <img
-        className="left-[259px] absolute w-[51px] h-[49px] top-[22px]"
-        alt="Icon arrow ios"
-        src={iconArrowIosForward}
-      />
-      <img
-        className="absolute w-[49px] h-[47px] top-[29px] left-[359px]"
-        alt="Icon shuffle"
-        src={iconShuffle2Outline}
-      />
-      <img
-        className="left-[101px] absolute w-[51px] h-[49px] top-[22px]"
-        alt="Icon arrow ios back"
-        src={iconArrowIosBack}
-      />
+    <div
+      className={`relative w-[434px] h-[173px] bg-[#2a6b36] rounded-xl overflow-hidden border border-solid border-black shadow-[5px_4px_4px_#000000]`}
+    >
+      <div className="relative w-[530px] h-[92px] top-[23px] left-2.5">
+        <p className="absolute w-[227px] top-0 left-[15px] [-webkit-text-stroke:1px_#000000] [font-family:'Inter-Light',Helvetica] font-light text-white text-[18.8px] tracking-[0] leading-[normal]">
+          watch an Ad to see/ comment
+        </p>
+        <p className="absolute top-[47px] left-0 [font-family:'Inter-Light',Helvetica] font-light text-white text-[18.8px] tracking-[0] leading-[normal]">
+          {" "}
+          picture’s width/height/(opacity involved) as the progress bar
+        </p>
+      </div>
     </div>
   );
 };
